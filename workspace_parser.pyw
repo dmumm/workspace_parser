@@ -113,8 +113,7 @@ def on_treeview_click(event, tree, root):
     root.clipboard_append(value)
     root.update()  # Required to finalize the clipboard update
 
-#  Main function to create and run the GUI."""
-
+#  Main function to create and run the GUI
 def main():
     final_workspaces = parse_workspaces(PATHS_TO_CHECK)
 
